@@ -29,6 +29,6 @@ class Solution {
             }
         }
         
-        return maxConsecutive
+        return currentConsecutive > maxConsecutive ? currentConsecutive : maxConsecutive
     }
 }
